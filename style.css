@@ -13,6 +13,10 @@ body {
     margin-top: 5%;
 }
 
+.second-paragrapg {
+    padding-right: 5%;
+}
+
 .red-color {
     color: red;
 }
@@ -34,6 +38,11 @@ body {
     background-position: right;
 }
 
+.lower-background {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -49,4 +58,30 @@ h2 {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid black;
+}
+
+#Master-Of-Mystic-Arts {
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, red);
+    border-image-slice: 1;
+}
+
+#A-Fine-Actor {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(182, 3, 33), green);
+    border-image-slice: 1;
+}
+
+.footer {
+    text-align: center;
 }
